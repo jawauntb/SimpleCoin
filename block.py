@@ -16,4 +16,3 @@ class Block:
                    str(self.data) +
                    str(self.previous_hash))
         return sha.hexdigest()
-    
